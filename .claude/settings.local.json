@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__acp__Bash",
+      "mcp__acp__Write",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:lamport.azurewebsites.net)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:crates.io)",
+      "WebFetch(domain:zed.dev)",
+      "WebFetch(domain:docs.rs)",
+      "mcp__acp__Edit"
+    ]
+  }
+}
