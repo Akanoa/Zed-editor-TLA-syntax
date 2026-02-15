@@ -1,0 +1,15 @@
+name = "TLA+"
+grammar = "tlaplus"
+path_suffixes = ["tla"]
+line_comments = ["\\* "]
+block_comments = ["(* ", " *)"]
+autoclose_before = ";:.,=}])|>"
+brackets = [
+  { start = "(", end = ")", close = true, newline = true },
+  { start = "[", end = "]", close = true, newline = true },
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "<<", end = ">>", close = true, newline = false },
+  { start = "(*", end = "*)", close = true, newline = true },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+]
+word_characters = ["_", "'"]
