@@ -33,4 +33,4 @@ This extension uses two tree-sitter grammars:
 
 ## License
 
-MIT
+BSD 3-Clause
