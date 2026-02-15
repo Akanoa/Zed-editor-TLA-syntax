@@ -1,0 +1,5 @@
+name = "TLA+ Cfg"
+grammar = "tlaplus_cfg"
+path_suffixes = ["cfg"]
+line_comments = ["\\* "]
+word_characters = ["_"]
