@@ -1,0 +1,11 @@
+id = "tla-plus"
+name = "TLA+"
+description = "TLA+ and PlusCal syntax support for Zed."
+version = "0.1.0"
+schema_version = 1
+authors = ["Noa <dev@guern.eu>"]
+repository = "https://github.com/Akanoa/Zed-editor-TLA-syntax"
+
+[grammars.tlaplus]
+repository = "https://github.com/tlaplus-community/tree-sitter-tlaplus"
+rev = "8d749f9a598b47b7110c7340006c8eb8a9552566"
