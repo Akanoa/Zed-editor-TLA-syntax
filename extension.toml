@@ -1,7 +1,7 @@
 id = "tla-plus"
 name = "TLA+"
 description = "TLA+ and PlusCal syntax support for Zed."
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["Noa <dev@guern.eu>"]
 repository = "https://github.com/Akanoa/Zed-editor-TLA-syntax"
@@ -9,3 +9,7 @@ repository = "https://github.com/Akanoa/Zed-editor-TLA-syntax"
 [grammars.tlaplus]
 repository = "https://github.com/tlaplus-community/tree-sitter-tlaplus"
 rev = "8d749f9a598b47b7110c7340006c8eb8a9552566"
+
+[grammars.tlaplus_cfg]
+repository = "https://github.com/Akanoa/tree-sitter-tlaplus-cfg"
+rev = "8d10f7d4a9138d0f75ca490f760dee1ec302c44c"
