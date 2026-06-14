@@ -1,0 +1,259 @@
+{
+  "for all": {
+    "prefix": "\\A",
+    "body": "∀",
+    "description": "∀ universal quantifier"
+  },
+  "for all (forall)": {
+    "prefix": "\\forall",
+    "body": "∀",
+    "description": "∀ universal quantifier"
+  },
+  "exists": {
+    "prefix": "\\E",
+    "body": "∃",
+    "description": "∃ existential quantifier"
+  },
+  "exists (exists)": {
+    "prefix": "\\exists",
+    "body": "∃",
+    "description": "∃ existential quantifier"
+  },
+  "negation": { "prefix": "\\neg", "body": "¬", "description": "¬ negation" },
+  "negation (lnot)": {
+    "prefix": "\\lnot",
+    "body": "¬",
+    "description": "¬ negation"
+  },
+  "logical and": {
+    "prefix": "\\land",
+    "body": "∧",
+    "description": "∧ logical and"
+  },
+  "logical or": {
+    "prefix": "\\lor",
+    "body": "∨",
+    "description": "∨ logical or"
+  },
+  "equivalence": {
+    "prefix": "\\equiv",
+    "body": "≡",
+    "description": "≡ equivalence"
+  },
+
+  "less than or equal": {
+    "prefix": "\\leq",
+    "body": "≤",
+    "description": "≤ less than or equal"
+  },
+  "greater than or equal": {
+    "prefix": "\\geq",
+    "body": "≥",
+    "description": "≥ greater than or equal"
+  },
+  "approximately equal": {
+    "prefix": "\\approx",
+    "body": "≈",
+    "description": "≈ approximately equal"
+  },
+  "asymptotic": {
+    "prefix": "\\asymp",
+    "body": "≍",
+    "description": "≍ asymptotically equal"
+  },
+  "congruent": {
+    "prefix": "\\cong",
+    "body": "≅",
+    "description": "≅ congruent"
+  },
+  "dot equal": {
+    "prefix": "\\doteq",
+    "body": "≐",
+    "description": "≐ approaches the limit"
+  },
+  "much greater than": {
+    "prefix": "\\gg",
+    "body": "≫",
+    "description": "≫ much greater than"
+  },
+  "much less than": {
+    "prefix": "\\ll",
+    "body": "≪",
+    "description": "≪ much less than"
+  },
+  "precedes": { "prefix": "\\prec", "body": "≺", "description": "≺ precedes" },
+  "succeeds": { "prefix": "\\succ", "body": "≻", "description": "≻ succeeds" },
+  "precedes or equal": {
+    "prefix": "\\preceq",
+    "body": "⪯",
+    "description": "⪯ precedes or equal"
+  },
+  "succeeds or equal": {
+    "prefix": "\\succeq",
+    "body": "⪰",
+    "description": "⪰ succeeds or equal"
+  },
+  "proportional to": {
+    "prefix": "\\propto",
+    "body": "∝",
+    "description": "∝ proportional to"
+  },
+  "similar": { "prefix": "\\sim", "body": "∼", "description": "∼ similar" },
+  "similar or equal": {
+    "prefix": "\\simeq",
+    "body": "≃",
+    "description": "≃ similar or equal"
+  },
+
+  "set membership": {
+    "prefix": "\\in",
+    "body": "∈",
+    "description": "∈ set membership"
+  },
+  "not a member": {
+    "prefix": "\\notin",
+    "body": "∉",
+    "description": "∉ not a member"
+  },
+  "proper subset": {
+    "prefix": "\\subset",
+    "body": "⊂",
+    "description": "⊂ proper subset"
+  },
+  "proper superset": {
+    "prefix": "\\supset",
+    "body": "⊃",
+    "description": "⊃ proper superset"
+  },
+  "subset or equal": {
+    "prefix": "\\subseteq",
+    "body": "⊆",
+    "description": "⊆ subset or equal"
+  },
+  "superset or equal": {
+    "prefix": "\\supseteq",
+    "body": "⊇",
+    "description": "⊇ superset or equal"
+  },
+  "square subset": {
+    "prefix": "\\sqsubset",
+    "body": "⊏",
+    "description": "⊏ square subset"
+  },
+  "square superset": {
+    "prefix": "\\sqsupset",
+    "body": "⊐",
+    "description": "⊐ square superset"
+  },
+  "square subset or equal": {
+    "prefix": "\\sqsubseteq",
+    "body": "⊑",
+    "description": "⊑ square subset or equal"
+  },
+  "square superset or equal": {
+    "prefix": "\\sqsupseteq",
+    "body": "⊒",
+    "description": "⊒ square superset or equal"
+  },
+  "intersection": {
+    "prefix": "\\cap",
+    "body": "∩",
+    "description": "∩ intersection"
+  },
+  "intersection (intersect)": {
+    "prefix": "\\intersect",
+    "body": "∩",
+    "description": "∩ intersection"
+  },
+  "union": { "prefix": "\\cup", "body": "∪", "description": "∪ union" },
+  "union (union)": {
+    "prefix": "\\union",
+    "body": "∪",
+    "description": "∪ union"
+  },
+  "square cap": {
+    "prefix": "\\sqcap",
+    "body": "⊓",
+    "description": "⊓ square cap"
+  },
+  "square cup": {
+    "prefix": "\\sqcup",
+    "body": "⊔",
+    "description": "⊔ square cup"
+  },
+  "multiset sum": {
+    "prefix": "\\uplus",
+    "body": "⊎",
+    "description": "⊎ multiset sum"
+  },
+
+  "times": {
+    "prefix": "\\times",
+    "body": "×",
+    "description": "× Cartesian product / times"
+  },
+  "times (X)": {
+    "prefix": "\\X",
+    "body": "×",
+    "description": "× Cartesian product / times"
+  },
+  "division": { "prefix": "\\div", "body": "÷", "description": "÷ division" },
+  "dot product": {
+    "prefix": "\\cdot",
+    "body": "⋅",
+    "description": "⋅ dot product"
+  },
+  "composition": {
+    "prefix": "\\circ",
+    "body": "∘",
+    "description": "∘ composition"
+  },
+  "star": { "prefix": "\\star", "body": "⋆", "description": "⋆ star" },
+  "bullet": { "prefix": "\\bullet", "body": "●", "description": "● bullet" },
+  "big circle": {
+    "prefix": "\\bigcirc",
+    "body": "◯",
+    "description": "◯ big circle"
+  },
+  "circled plus": {
+    "prefix": "\\oplus",
+    "body": "⊕",
+    "description": "⊕ circled plus"
+  },
+  "circled minus": {
+    "prefix": "\\ominus",
+    "body": "⊖",
+    "description": "⊖ circled minus"
+  },
+  "circled times": {
+    "prefix": "\\otimes",
+    "body": "⊗",
+    "description": "⊗ circled times"
+  },
+  "circled dot": {
+    "prefix": "\\odot",
+    "body": "⊙",
+    "description": "⊙ circled dot"
+  },
+  "circled slash": {
+    "prefix": "\\oslash",
+    "body": "⊘",
+    "description": "⊘ circled slash"
+  },
+  "wreath product": {
+    "prefix": "\\wr",
+    "body": "≀",
+    "description": "≀ wreath product"
+  },
+
+  "left angle bracket": {
+    "prefix": "\\langle",
+    "body": "⟨",
+    "description": "⟨ left angle bracket (sequence/tuple)"
+  },
+  "right angle bracket": {
+    "prefix": "\\rangle",
+    "body": "⟩",
+    "description": "⟩ right angle bracket (sequence/tuple)"
+  }
+}
